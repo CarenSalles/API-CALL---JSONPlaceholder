@@ -1,3 +1,22 @@
 table{
     border-collapse: collapse;
 }
+th, td {
+    border: 1px solid black;
+    text-align: left;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+p{
+    background-color: antiquewhite;
+}
+
+button{
+    background-color: blueviolet;
+    cursor: pointer;
+}
+button:hover{
+    color: whitesmoke;
+    background-color: black;
+}
