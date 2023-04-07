@@ -1,22 +1,41 @@
 table{
     border-collapse: collapse;
+    margin: 1vw;
 }
 th, td {
     border: 1px solid black;
     text-align: left;
     padding: 10px;
     background-color: antiquewhite;
+    font-weight: bold;
 }
 
 p{
-    background-color: antiquewhite;
+    background-color: rgb(49, 48, 46);
+    font-weight: bold;
+    color: aliceblue;
+    width: 24.5vw;
+    height: 5vh;
+    border-radius: .3vw;
+    padding-top: 1.3vh;
+    padding-left: .3vw;
 }
 
 button{
     background-color: blueviolet;
     cursor: pointer;
+    color: aliceblue;
+    font-weight: bold;
+    border-radius: .3vw;
+    width: 5vw;
 }
 button:hover{
     color: whitesmoke;
     background-color: black;
+}
+
+#userForm{
+    display: flex;
+    gap: 1vw;
+    font-weight: bold;
 }

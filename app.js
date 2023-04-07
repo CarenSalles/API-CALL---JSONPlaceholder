@@ -19,7 +19,7 @@ form.addEventListener('submit', event => {
     event.preventDefault();
     const id = form.elements.id.value;
     fetch(`https://jsonplaceholder.typicode.com/users/${id}`)
-    then(response => response.json())
+    .then(response => response.json())
     .then(user => {
         nameElement.textContent = user.name;
         phoneElement.textContent = user.phone;
